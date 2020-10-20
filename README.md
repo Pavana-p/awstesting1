@@ -26,7 +26,7 @@ Or in Windows with Git Bash:
 	~/eb-tomcat-snakes$ ./build-windows.sh
 
 **IMPORTANT**
-Always run build.sh from the root of the project directory.
+Always run build.sh from the root of project directory.
 
 The script compiles the project's classes, packs the necessary files into a web archive, and then attempts to copy the WAR file to ``/Library/Tomcat`` for local testing. If you installed Tomcat to another location, change the path in ``build.sh``:
 
