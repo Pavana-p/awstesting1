@@ -33,7 +33,7 @@ The script compiles the project's classes, pack the necessary files into web arc
 	if [ -d "/path/to/Tomcat/webapps" ]; then
 	  cp ROOT.war /path/to/Tomcat/webapps
 
-Open [localhost:8080](http://localhost:8080/) in a web browser to view the application running locally.
+Open [localhost:8080](http://localhost:8080/) in a web browser to view the application running locally
 
 You can use either the AWS Management Console or the EB CLI to launch the compiled WAR. Scroll down for EB CLI instructions.
 
