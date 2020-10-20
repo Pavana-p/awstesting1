@@ -28,7 +28,7 @@ Or in Windows with Git Bash:
 **IMPORTANT**
 Always run build.sh from the root of project directory.
 
-The script compiles the project's classes, pack the necessary files into the web archive, and then attempts to copy the WAR file to ``/Library/Tomcat`` for local testing. If you installed Tomcat to another location, change the path in ``build.sh``:
+The script compiles the project's classes, pack the necessary files into web archive, and then attempts to copy the WAR file to ``/Library/Tomcat`` for local testing. If you installed Tomcat to another location, change the path in ``build.sh``:
 
 	if [ -d "/path/to/Tomcat/webapps" ]; then
 	  cp ROOT.war /path/to/Tomcat/webapps
